@@ -1,4 +1,4 @@
-public abstract class Person implements Printable{
+public abstract class Person implements Printable, SeasonHandler{
     public String name;
     @Override
     public void print(){
